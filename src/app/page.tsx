@@ -177,6 +177,11 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://www.michigandaily.com/web/data/is-there-a-gender-pay-gap-among-professors/">
+                  Is there a gender pay gap among professors?
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://www.michigandaily.com/web/how-walkable-is-your-block/">
                   How walkable is your block?
                 </Anchor>
@@ -200,6 +205,11 @@ export default function Page() {
                 <Anchor href="https://www.michigandaily.com/news/academics/umich-computer-science-program-restricts-admission-starting-in-fall-2023-as-demand-rises/">
                   UMich computer science program restricts admission starting in
                   fall 2023 as demand rises
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/womens-basketball/a-data-driven-michigan-vs-villanova-round-of-32-preview/">
+                  A data-driven Michigan vs. Villanova Round of 32 preview
                 </Anchor>
               </li>
               <li>
