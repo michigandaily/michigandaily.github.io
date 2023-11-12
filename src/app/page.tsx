@@ -39,7 +39,7 @@ export default function Page() {
             See our open-source work on{" "}
             <Anchor href="https://github.com/michigandaily">GitHub</Anchor>.
           </p>
-          <section>
+          <section className="grid gap-1">
             <h3 className="font-serif font-bold text-xl">
               Product Engineering and Design
             </h3>
@@ -83,7 +83,7 @@ export default function Page() {
               <li>Oven Mitts</li>
             </UnorderedList>
           </section>
-          <section>
+          <section className="grid gap-1">
             <h3 className="font-serif font-bold text-xl">
               News Engineering and Design
             </h3>
@@ -167,7 +167,7 @@ export default function Page() {
               </li>
             </UnorderedList>
           </section>
-          <section>
+          <section className="grid gap-1">
             <h3 className="font-serif font-bold text-xl">Data Journalism</h3>
             <UnorderedList>
               <li>
@@ -298,7 +298,7 @@ export default function Page() {
               three: data journalism, engineering and product design.
             </p>
           </hgroup>
-          <section>
+          <section className="grid gap-1">
             <h3 className="font-serif font-bold text-xl">Leadership Team</h3>
             <UnorderedList>
               <li>
@@ -335,6 +335,16 @@ export default function Page() {
                 <b>Product Design Manager</b> Jenny Do
               </li>
             </UnorderedList>
+          </section>
+          <section>
+            <p>
+              <span className="font-bold">
+                We have worked or currently work at these organizations:
+              </span>{" "}
+              Amazon, CNN, Google, HubSpot, Meta, Microsoft, MongoDB, Nike, NBC,
+              San Francisco Standard, Snap, Spotify, Stripe, Susquehanna
+              International Group, The Texas Tribune, Uber, Wall Street Journal.
+            </p>
           </section>
         </section>
       </main>
