@@ -35,6 +35,10 @@ export default function Page() {
               aid in publishing.
             </p>
           </hgroup>
+          <p>
+            See our open-source work on{" "}
+            <Anchor href="https://github.com/michigandaily">GitHub</Anchor>.
+          </p>
           <section>
             <h3 className="font-serif font-bold text-xl">
               Product Engineering and Design
