@@ -229,6 +229,11 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://www.michigandaily.com/news/ann-arbor/city-of-ann-arbor-2021-special-election-results/">
+                  City of Ann Arbor 2021 Special Election Results
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://www.michigandaily.com/campus-life/umich-class-of-2025-by-the-numbers-and-their-hopes-for-college/">
                   UMich Class of 2025: By the numbers and their hopes for
                   college
