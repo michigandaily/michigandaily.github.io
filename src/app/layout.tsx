@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 
-import "./globals.css";
 import { sans, serif } from "./fonts";
+import "./globals.css";
 
 export const viewport: Viewport = {
   themeColor: "#ffffff",
@@ -12,7 +12,8 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://michigandaily.github.io"),
   title: "The Michigan Daily Web Team",
-  description: "Get to know the people and work of The Michigan Daily Web Team.",
+  description:
+    "Get to know the people and work of The Michigan Daily Web Team.",
   creator: "The Michigan Daily",
   publisher: "The Michigan Daily",
   icons: [
@@ -40,7 +41,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "The Michigan Daily Web Team",
-    description: "Get to know the people and work of The Michigan Daily Web Team.",
+    description:
+      "Get to know the people and work of The Michigan Daily Web Team.",
     siteName: "The Michigan Daily",
     images: [],
   },
