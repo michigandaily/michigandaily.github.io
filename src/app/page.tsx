@@ -89,6 +89,11 @@ export default function Page() {
             </h3>
             <UnorderedList>
               <li>
+                <Anchor href="https://mic.michigandaily.com/2023/the-fable-of-the-lion-the-butcher-and-three-kings/">
+                  The Fable of the Lion, the Butcher, and Three Kings
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://specials.michigandaily.com/2023/writing-in-the-digital-dark-age/">
                   Writing in the Digital Dark Age
                 </Anchor>
