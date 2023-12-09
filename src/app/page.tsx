@@ -19,9 +19,9 @@ export default function Page() {
       <main className="font-serif grid gap-4">
         <p className="text-lg">
           The Michigan Daily Web Team leads the digital-first future of{" "}
-          <a href="https://www.michigandaily.com/" className="underline">
+          <Anchor href="https://www.michigandaily.com/">
             The Michigan Daily
-          </a>
+          </Anchor>
           , the student-run newspaper at the University of Michigan in Ann
           Arbor.
         </p>
@@ -36,7 +36,7 @@ export default function Page() {
             </p>
           </hgroup>
           <p>
-            See our open-source work on{" "}
+            View our open-source work on{" "}
             <Anchor href="https://github.com/michigandaily">GitHub</Anchor>.
           </p>
           <section className="grid gap-1">
@@ -94,14 +94,14 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
-                <Anchor href="https://specials.michigandaily.com/2023/writing-in-the-digital-dark-age/">
-                  Writing in the Digital Dark Age
-                </Anchor>
-              </li>
-              <li>
                 <Anchor href="https://specials.michigandaily.com/2023/the-devil-is-in-the-details-jen-kleins-empowerment-of-others/">
                   The Devil is in the Details: Jen Klein&apos;s empowerment of
                   others
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://specials.michigandaily.com/2023/writing-in-the-digital-dark-age/">
+                  Writing in the Digital Dark Age
                 </Anchor>
               </li>
               <li>
@@ -166,6 +166,11 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://magnify.michigandaily.us/love/">
+                  The 2021 Love Notes
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://magnify.michigandaily.us/2020_timeline/">
                   20 Days to Remember in 2020
                 </Anchor>
@@ -218,6 +223,11 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://www.michigandaily.com/statement/the-statement-2021-sex-survey/">
+                  The Statement 2021 Sex Survey
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://www.michigandaily.com/news/business/more-than-100-ann-arbor-restaurants-closed-in-the-past-three-years-how-have-these-closures-affected-the-community/">
                   More than 100 Ann Arbor restaurants closed in the past three
                   years. How have these closures affected the community?
@@ -251,6 +261,17 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://www.michigandaily.com/research/daily-analysis-finds-pay-disparities-within-lsa-and-coe-as-student-representatives-question-how-salaries-are-decided/">
+                  Daily analysis finds pay disparities within LSA, CoE
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/news/administration/daily-analysis-finds-funding-and-salary-increases-for-dpss-since-2013/">
+                  Daily analysis finds funding, salary increases for DPSS since
+                  2013
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://www.michigandaily.com/sports/mens-basketball/daily-beat-writers-predict-michigans-ncaa-tournament-fate-2/">
                   Daily beat writers predict Michigan&apos;s NCAA Tournament
                   fate
@@ -275,9 +296,44 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://www.michigandaily.com/news/academics/across-country-or-across-state-undergraduates-come-u-varying-experiences/">
+                  From across the country or across the state, undergraduates
+                  come to &apos;U&apos; with varying experiences
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/news/academics/hail-and-go-blue-guarantee-financial-aid-programs-give-low-income-state-students/">
+                  &apos;HAIL&apos; and Go Blue Guarantee financial aid programs
+                  give low-income in-state students education opportunities
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/news/students-discuss-impacts-apib-experience-college-preparation/">
+                  Students discuss impacts of AP/IB experience on college
+                  preparation
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://www.michigandaily.com/research/how-effective-are-stay-home-orders-and-recommendations-reducing-spread-covid-19/">
                   A look at COVID-19 data before, during and after U-M&apos;s
                   two stay-in-place restrictions
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/statement/2020-sex-survey/">
+                  The 2020 Statement Sex Survey
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/government/how-are-umich-students-voting-election-survey-issues-most-important-students/">
+                  How are U-M students voting this election? A survey of issues
+                  most important to students
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/news/academics/meet-class-2024-freshmen-embark-unprecedented-first-year/">
+                  Meet the Class of 2024: Freshmen embark on unprecedented first
+                  year
                 </Anchor>
               </li>
               <li>
