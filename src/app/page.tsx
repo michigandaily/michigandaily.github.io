@@ -130,6 +130,11 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://specials.michigandaily.com/2023/love-notes/">
+                  The 2023 Love Notes
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://specials.michigandaily.com/2022/photographers-favorites/">
                   2022 Photographers&apos; Favorites
                 </Anchor>
@@ -142,6 +147,11 @@ export default function Page() {
               <li>
                 <Anchor href="https://specials.michigandaily.com/2022/ballot-guide/">
                   The 2022 Ballot Guide
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://specials.michigandaily.com/2022/primary-election/">
+                  The 2022 Primary Guide
                 </Anchor>
               </li>
               <li>
@@ -161,6 +171,11 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://www.michigandaily.com/multimedia/the-michigan-dailys-year-in-photos/">
+                  The Michigan Daily&apos;s year in photos
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://magnify.michigandaily.us/covid1year/">
                   A look back: One year online at U-M
                 </Anchor>
@@ -175,11 +190,31 @@ export default function Page() {
                   20 Days to Remember in 2020
                 </Anchor>
               </li>
+              <li>
+                <Anchor href="https://magnify.michigandaily.us/election2020/">
+                  2020 Election Central
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://magnify.michigandaily.us/miseducation/">
+                  Miseducation
+                </Anchor>
+              </li>
             </UnorderedList>
           </section>
           <section className="grid gap-1">
             <h3 className="font-serif font-bold text-xl">Data Journalism</h3>
             <UnorderedList>
+              <li>
+                <Anchor href="https://www.michigandaily.com/statement/the-statement-2023-sex-survey/">
+                  The Statement 2023 Sex Survey
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/campus-life/umich-class-of-2027-by-the-numbers-freshman-survey/">
+                  UMich class of 2027 by the numbers: Diets, dorms, and data
+                </Anchor>
+              </li>
               <li>
                 <Anchor href="https://www.michigandaily.com/news/administration/what-to-know-about-geos-pay-demands-an-in-depth-analysis-of-graduate-student-pay/">
                   What to know about GEO&apos;s pay demands: An in-depth
@@ -202,6 +237,12 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://www.michigandaily.com/government/looking-back-at-the-midterm-elections-voting-at-the-satellite-city-clerks-office/">
+                  Looking back at the midterm elections: Voting at the Satellite
+                  City Clerk&apos;s office
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://www.michigandaily.com/statement/the-statement-2022-sex-survey/">
                   The Statement 2022 Sex Survey
                 </Anchor>
@@ -218,8 +259,31 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://www.michigandaily.com/campus-life/umich-class-of-2026-by-the-numbers/">
+                  UMich class of 2026 by the numbers: From winter woes to this
+                  year&apos;s dream dorm
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://www.michigandaily.com/womens-basketball/a-data-driven-michigan-vs-villanova-round-of-32-preview/">
                   A data-driven Michigan vs. Villanova Round of 32 preview
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/sports/mens-basketball/the-daily-mens-basketball-beat-predicts-the-first-weekend-of-march-madness/">
+                  The Daily men&apos;s basketball beat predicts the first
+                  weekend of March Madness
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/sports/football/a-data-driven-orange-bowl-preview/">
+                  A data-driven Orange Bowl preview
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/sports/football/by-the-numbers-michigan-looks-to-carry-big-play-success-into-college-football-playoff/">
+                  By the numbers: Michigan looks to carry big-play success into
+                  College Football Playoff
                 </Anchor>
               </li>
               <li>
@@ -249,9 +313,25 @@ export default function Page() {
                 </Anchor>
               </li>
               <li>
+                <Anchor href="https://www.michigandaily.com/sports/football/a-visual-representation-of-michigans-run-game/">
+                  A visual representation of Michigan&apos;s run game
+                </Anchor>
+              </li>
+              <li>
                 <Anchor href="https://www.michigandaily.com/campus-life/umich-class-of-2025-by-the-numbers-and-their-hopes-for-college/">
                   UMich Class of 2025: By the numbers and their hopes for
                   college
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/sports/michigans-history-at-the-olympics/">
+                  Michigan athletes carry strong Olympic reputation into 2020
+                  games
+                </Anchor>
+              </li>
+              <li>
+                <Anchor href="https://www.michigandaily.com/sports/olympic-tradition-includes-wolverines-from-across-the-globe/">
+                  Olympic tradition includes Wolverines from across the globe
                 </Anchor>
               </li>
               <li>
