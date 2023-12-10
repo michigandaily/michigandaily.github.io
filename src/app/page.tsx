@@ -30,8 +30,8 @@ export default function Page() {
             <p>
               We work with The Daily&apos;s editorial teams to develop article
               layouts and write data-driven stories. We also design and build
-              products to deliver our editorial content and internal tools to
-              aid in publishing.
+              products to deliver our content and internal tools to aid in
+              publishing.
             </p>
           </hgroup>
           <p>
@@ -114,6 +114,11 @@ export default function Page() {
                 </Link>
               </li>
               <li>
+                <Link href="https://specials.michigandaily.com/2023/travel-edition/">
+                  The Statement Travel Edition
+                </Link>
+              </li>
+              <li>
                 <Link href="https://specials.michigandaily.com/2023/summer-crush-edition/">
                   Summer Crush Edition
                 </Link>
@@ -156,6 +161,26 @@ export default function Page() {
               <li>
                 <Link href="https://specials.michigandaily.com/2022/ballot-guide/">
                   The 2022 Ballot Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/web/the-michigan-daily-interactive-career-map/">
+                  The Michigan Daily interactive career map
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/statement/if-your-travels-are-perfect-youre-traveling-wrong/">
+                  If your travels are perfect, you&apos;re traveling wrong
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/statement/into-the-multiverses-impact-on-modern-media">
+                  Into the multiverse&apos;s impact on modern media
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/statement/surely-it-has-an-expiration-date/">
+                  Surely it has an expiration date
                 </Link>
               </li>
               <li>
@@ -224,6 +249,16 @@ export default function Page() {
               <li>
                 <Link href="https://www.michigandaily.com/campus-life/umich-class-of-2027-by-the-numbers-freshman-survey/">
                   UMich class of 2027 by the numbers: Diets, dorms, and data
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/web/data/diving-deep-into-mdining/">
+                  Diving deep into MDining
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/statement/dont-let-the-archive-become-a-death-sentence/">
+                  Don&apos;t let the archive become a death sentence
                 </Link>
               </li>
               <li>
