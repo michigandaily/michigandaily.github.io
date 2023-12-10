@@ -1,11 +1,11 @@
-import Link from "next/link";
+import NextLink from "next/link";
 import type { ReactNode } from "react";
 
 export default function Page() {
   return (
     <div className="grid gap-3 py-3 px-4 mx-auto my-0 max-w-[65ch] w-full">
       <nav>
-        <Link href="/" className="flex gap-2 items-center flex-wrap w-fit">
+        <NextLink href="/" className="flex gap-2 items-center flex-wrap w-fit">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/assets/logo-small.svg"
@@ -14,20 +14,19 @@ export default function Page() {
             className="aspect-square"
           />
           <h1 className="font-serif font-bold text-3xl">Web Team</h1>
-        </Link>
+        </NextLink>
       </nav>
       <main className="font-serif grid gap-4">
         <p className="text-lg">
           The Michigan Daily Web Team leads the digital-first future of{" "}
-          <Anchor href="https://www.michigandaily.com/">
-            The Michigan Daily
-          </Anchor>
-          , the student-run newspaper at the University of Michigan in Ann
-          Arbor.
+          <Link href="https://www.michigandaily.com/">The Michigan Daily</Link>,
+          the student-run newspaper at the University of Michigan in Ann Arbor.
         </p>
         <section className="grid gap-2">
           <hgroup>
-            <h2 className="font-serif font-bold text-2xl">Work</h2>
+            <h2 className="font-serif font-bold text-2xl" id="work">
+              <Anchor href="#work">Work</Anchor>
+            </h2>
             <p>
               We work with The Daily&apos;s editorial teams to develop article
               layouts and write data-driven stories. We also design and build
@@ -37,402 +36,416 @@ export default function Page() {
           </hgroup>
           <p>
             View our open-source work on{" "}
-            <Anchor href="https://github.com/michigandaily">GitHub</Anchor>.
+            <Link href="https://github.com/michigandaily">GitHub</Link>.
           </p>
           <section className="grid gap-1">
-            <h3 className="font-serif font-bold text-xl">
-              Product Engineering and Design
+            <h3
+              className="font-serif font-bold text-xl"
+              id="product-engineering-and-design"
+            >
+              <Anchor href="#product-engineering-and-design">
+                Product Engineering and Design
+              </Anchor>
             </h3>
             <UnorderedList>
               <li>
-                <Anchor href="https://games.michigandaily.com/crosswords/">
+                <Link href="https://games.michigandaily.com/crosswords/">
                   Crosswords
-                </Anchor>
+                </Link>
               </li>
               <li>
                 Mobile application (
-                <Anchor href="https://apps.apple.com/us/app/the-michigan-daily/id1615063980">
+                <Link href="https://apps.apple.com/us/app/the-michigan-daily/id1615063980">
                   iOS
-                </Anchor>{" "}
+                </Link>{" "}
                 and{" "}
-                <Anchor href="https://play.google.com/store/apps/details?id=edu.umich.tmd&hl=en_US&gl=US">
+                <Link href="https://play.google.com/store/apps/details?id=edu.umich.tmd&hl=en_US&gl=US">
                   Android
-                </Anchor>
+                </Link>
                 )
               </li>
               <li>
-                <Anchor href="https://join.michigandaily.com">
+                <Link href="https://join.michigandaily.com">
                   Join The Michigan Daily
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://specials.michigandaily.com/2023/best-of-ann-arbor/results/">
+                <Link href="https://specials.michigandaily.com/2023/best-of-ann-arbor/results/">
                   Best of Ann Arbor
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://miseducation.michigandaily.com/">
+                <Link href="https://miseducation.michigandaily.com/">
                   The Miseducation Project
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.therivalrygame.com/">
+                <Link href="https://www.therivalrygame.com/">
                   The Rivalry Edition
-                </Anchor>
+                </Link>
               </li>
               <li>Oven Mitts</li>
             </UnorderedList>
           </section>
           <section className="grid gap-1">
-            <h3 className="font-serif font-bold text-xl">
-              News Engineering and Design
+            <h3
+              className="font-serif font-bold text-xl"
+              id="news-engineering-and-design"
+            >
+              <Anchor href="#news-engineering-and-design">
+                News Engineering and Design
+              </Anchor>
             </h3>
             <UnorderedList>
               <li>
-                <Anchor href="https://mic.michigandaily.com/2023/the-fable-of-the-lion-the-butcher-and-three-kings/">
+                <Link href="https://mic.michigandaily.com/2023/the-fable-of-the-lion-the-butcher-and-three-kings/">
                   The Fable of the Lion, the Butcher, and Three Kings
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://specials.michigandaily.com/2023/the-devil-is-in-the-details-jen-kleins-empowerment-of-others/">
+                <Link href="https://specials.michigandaily.com/2023/the-devil-is-in-the-details-jen-kleins-empowerment-of-others/">
                   The Devil is in the Details: Jen Klein&apos;s empowerment of
                   others
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://specials.michigandaily.com/2023/writing-in-the-digital-dark-age/">
+                <Link href="https://specials.michigandaily.com/2023/writing-in-the-digital-dark-age/">
                   Writing in the Digital Dark Age
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://specials.michigandaily.com/2023/summer-crush-edition/">
+                <Link href="https://specials.michigandaily.com/2023/summer-crush-edition/">
                   Summer Crush Edition
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://specials.michigandaily.com/2023/swiftie-project/">
+                <Link href="https://specials.michigandaily.com/2023/swiftie-project/">
                   The Swifte Project
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://mic.michigandaily.com/queer-in-color-2023/">
+                <Link href="https://mic.michigandaily.com/queer-in-color-2023/">
                   Queer in Color
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://mic.michigandaily.com/mic-style/">
+                <Link href="https://mic.michigandaily.com/mic-style/">
                   MiC Style
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://mic.michigandaily.com/black-hair-series/">
+                <Link href="https://mic.michigandaily.com/black-hair-series/">
                   The Black Hair Series
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://specials.michigandaily.com/2023/love-notes/">
+                <Link href="https://specials.michigandaily.com/2023/love-notes/">
                   The 2023 Love Notes
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://specials.michigandaily.com/2022/photographers-favorites/">
+                <Link href="https://specials.michigandaily.com/2022/photographers-favorites/">
                   2022 Photographers&apos; Favorites
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/sports/football/the-rivalry-through-history/">
+                <Link href="https://www.michigandaily.com/sports/football/the-rivalry-through-history/">
                   The rivalry through history
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://specials.michigandaily.com/2022/ballot-guide/">
+                <Link href="https://specials.michigandaily.com/2022/ballot-guide/">
                   The 2022 Ballot Guide
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://specials.michigandaily.com/2022/primary-election/">
+                <Link href="https://specials.michigandaily.com/2022/primary-election/">
                   The 2022 Primary Guide
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/sports/mens-basketball/daily-basketball-beat-predicts-march-madness-men/">
+                <Link href="https://www.michigandaily.com/sports/mens-basketball/daily-basketball-beat-predicts-march-madness-men/">
                   The Daily men&apos;s basketball beat bracket reveal
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/statement/love-notes-2022/">
+                <Link href="https://www.michigandaily.com/statement/love-notes-2022/">
                   The 2022 Love Notes
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/administration/a-look-back-at-eight-years-of-umich-under-former-u-m-president-mark-schlissel/">
+                <Link href="https://www.michigandaily.com/news/administration/a-look-back-at-eight-years-of-umich-under-former-u-m-president-mark-schlissel/">
                   A look back at eight years of UMich under former U-M President
                   Mark Schlissel
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/multimedia/the-michigan-dailys-year-in-photos/">
+                <Link href="https://www.michigandaily.com/multimedia/the-michigan-dailys-year-in-photos/">
                   The Michigan Daily&apos;s year in photos
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://magnify.michigandaily.us/covid1year/">
+                <Link href="https://magnify.michigandaily.us/covid1year/">
                   A look back: One year online at U-M
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://magnify.michigandaily.us/love/">
+                <Link href="https://magnify.michigandaily.us/love/">
                   The 2021 Love Notes
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://magnify.michigandaily.us/2020_timeline/">
+                <Link href="https://magnify.michigandaily.us/2020_timeline/">
                   20 Days to Remember in 2020
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://magnify.michigandaily.us/election2020/">
+                <Link href="https://magnify.michigandaily.us/election2020/">
                   2020 Election Central
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://magnify.michigandaily.us/miseducation/">
+                <Link href="https://magnify.michigandaily.us/miseducation/">
                   Miseducation
-                </Anchor>
+                </Link>
               </li>
             </UnorderedList>
           </section>
           <section className="grid gap-1">
-            <h3 className="font-serif font-bold text-xl">Data Journalism</h3>
+            <h3 className="font-serif font-bold text-xl" id="data-journalism">
+              <Anchor href="#data-journalism">Data Journalism</Anchor>
+            </h3>
             <UnorderedList>
               <li>
-                <Anchor href="https://www.michigandaily.com/statement/the-statement-2023-sex-survey/">
+                <Link href="https://www.michigandaily.com/statement/the-statement-2023-sex-survey/">
                   The Statement 2023 Sex Survey
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/campus-life/umich-class-of-2027-by-the-numbers-freshman-survey/">
+                <Link href="https://www.michigandaily.com/campus-life/umich-class-of-2027-by-the-numbers-freshman-survey/">
                   UMich class of 2027 by the numbers: Diets, dorms, and data
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/administration/what-to-know-about-geos-pay-demands-an-in-depth-analysis-of-graduate-student-pay/">
+                <Link href="https://www.michigandaily.com/news/administration/what-to-know-about-geos-pay-demands-an-in-depth-analysis-of-graduate-student-pay/">
                   What to know about GEO&apos;s pay demands: An in-depth
                   analysis of graduate student pay
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/web/data/is-there-a-gender-pay-gap-among-professors/">
+                <Link href="https://www.michigandaily.com/web/data/is-there-a-gender-pay-gap-among-professors/">
                   Is there a gender pay gap among professors?
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/web/how-walkable-is-your-block/">
+                <Link href="https://www.michigandaily.com/web/how-walkable-is-your-block/">
                   How walkable is your block?
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/news-briefs/massive-power-outage-in-ann-arbor-leaves-thousands-in-the-dark/">
+                <Link href="https://www.michigandaily.com/news/news-briefs/massive-power-outage-in-ann-arbor-leaves-thousands-in-the-dark/">
                   Massive power outage in Ann Arbor leaves thousands in the dark
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/government/looking-back-at-the-midterm-elections-voting-at-the-satellite-city-clerks-office/">
+                <Link href="https://www.michigandaily.com/government/looking-back-at-the-midterm-elections-voting-at-the-satellite-city-clerks-office/">
                   Looking back at the midterm elections: Voting at the Satellite
                   City Clerk&apos;s office
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/statement/the-statement-2022-sex-survey/">
+                <Link href="https://www.michigandaily.com/statement/the-statement-2022-sex-survey/">
                   The Statement 2022 Sex Survey
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/elections/ann-arbor-2022-midterm-election-results/">
+                <Link href="https://www.michigandaily.com/news/elections/ann-arbor-2022-midterm-election-results/">
                   Ann Arbor 2022 Midterm Election Results
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/academics/umich-computer-science-program-restricts-admission-starting-in-fall-2023-as-demand-rises/">
+                <Link href="https://www.michigandaily.com/news/academics/umich-computer-science-program-restricts-admission-starting-in-fall-2023-as-demand-rises/">
                   UMich computer science program restricts admission starting in
                   fall 2023 as demand rises
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/campus-life/umich-class-of-2026-by-the-numbers/">
+                <Link href="https://www.michigandaily.com/campus-life/umich-class-of-2026-by-the-numbers/">
                   UMich class of 2026 by the numbers: From winter woes to this
                   year&apos;s dream dorm
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/womens-basketball/a-data-driven-michigan-vs-villanova-round-of-32-preview/">
+                <Link href="https://www.michigandaily.com/womens-basketball/a-data-driven-michigan-vs-villanova-round-of-32-preview/">
                   A data-driven Michigan vs. Villanova Round of 32 preview
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/sports/mens-basketball/the-daily-mens-basketball-beat-predicts-the-first-weekend-of-march-madness/">
+                <Link href="https://www.michigandaily.com/sports/mens-basketball/the-daily-mens-basketball-beat-predicts-the-first-weekend-of-march-madness/">
                   The Daily men&apos;s basketball beat predicts the first
                   weekend of March Madness
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/sports/football/a-data-driven-orange-bowl-preview/">
+                <Link href="https://www.michigandaily.com/sports/football/a-data-driven-orange-bowl-preview/">
                   A data-driven Orange Bowl preview
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/sports/football/by-the-numbers-michigan-looks-to-carry-big-play-success-into-college-football-playoff/">
+                <Link href="https://www.michigandaily.com/sports/football/by-the-numbers-michigan-looks-to-carry-big-play-success-into-college-football-playoff/">
                   By the numbers: Michigan looks to carry big-play success into
                   College Football Playoff
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/statement/the-statement-2021-sex-survey/">
+                <Link href="https://www.michigandaily.com/statement/the-statement-2021-sex-survey/">
                   The Statement 2021 Sex Survey
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/business/more-than-100-ann-arbor-restaurants-closed-in-the-past-three-years-how-have-these-closures-affected-the-community/">
+                <Link href="https://www.michigandaily.com/news/business/more-than-100-ann-arbor-restaurants-closed-in-the-past-three-years-how-have-these-closures-affected-the-community/">
                   More than 100 Ann Arbor restaurants closed in the past three
                   years. How have these closures affected the community?
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/web/data/registration-tracker-see-which-courses-are-filling-up/">
+                <Link href="https://www.michigandaily.com/web/data/registration-tracker-see-which-courses-are-filling-up/">
                   Registration tracker: See which courses are filling up
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/sports/football/visualizing-the-history-of-the-game/">
+                <Link href="https://www.michigandaily.com/sports/football/visualizing-the-history-of-the-game/">
                   Visualizing the history of The Game
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/ann-arbor/city-of-ann-arbor-2021-special-election-results/">
+                <Link href="https://www.michigandaily.com/news/ann-arbor/city-of-ann-arbor-2021-special-election-results/">
                   City of Ann Arbor 2021 Special Election Results
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/sports/football/a-visual-representation-of-michigans-run-game/">
+                <Link href="https://www.michigandaily.com/sports/football/a-visual-representation-of-michigans-run-game/">
                   A visual representation of Michigan&apos;s run game
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/campus-life/umich-class-of-2025-by-the-numbers-and-their-hopes-for-college/">
+                <Link href="https://www.michigandaily.com/campus-life/umich-class-of-2025-by-the-numbers-and-their-hopes-for-college/">
                   UMich Class of 2025: By the numbers and their hopes for
                   college
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/sports/michigans-history-at-the-olympics/">
+                <Link href="https://www.michigandaily.com/sports/michigans-history-at-the-olympics/">
                   Michigan athletes carry strong Olympic reputation into 2020
                   games
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/sports/olympic-tradition-includes-wolverines-from-across-the-globe/">
+                <Link href="https://www.michigandaily.com/sports/olympic-tradition-includes-wolverines-from-across-the-globe/">
                   Olympic tradition includes Wolverines from across the globe
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/research/daily-analysis-finds-historically-large-salary-disparities-between-three-u-m-campuses/">
+                <Link href="https://www.michigandaily.com/research/daily-analysis-finds-historically-large-salary-disparities-between-three-u-m-campuses/">
                   Daily analysis finds historically large salary disparities
                   between three U-M campuses
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/research/daily-analysis-finds-pay-disparities-within-lsa-and-coe-as-student-representatives-question-how-salaries-are-decided/">
+                <Link href="https://www.michigandaily.com/research/daily-analysis-finds-pay-disparities-within-lsa-and-coe-as-student-representatives-question-how-salaries-are-decided/">
                   Daily analysis finds pay disparities within LSA, CoE
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/administration/daily-analysis-finds-funding-and-salary-increases-for-dpss-since-2013/">
+                <Link href="https://www.michigandaily.com/news/administration/daily-analysis-finds-funding-and-salary-increases-for-dpss-since-2013/">
                   Daily analysis finds funding, salary increases for DPSS since
                   2013
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/sports/mens-basketball/daily-beat-writers-predict-michigans-ncaa-tournament-fate-2/">
+                <Link href="https://www.michigandaily.com/sports/mens-basketball/daily-beat-writers-predict-michigans-ncaa-tournament-fate-2/">
                   Daily beat writers predict Michigan&apos;s NCAA Tournament
                   fate
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/administration/daily-research-finds-only-one-building-named-after-person-color-12-after/">
+                <Link href="https://www.michigandaily.com/news/administration/daily-research-finds-only-one-building-named-after-person-color-12-after/">
                   Daily research finds only one building named after person of
                   color, 12 after women
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/crime/annual-dpss-report-shows-increase-number-sexual-misconduct-cases/">
+                <Link href="https://www.michigandaily.com/news/crime/annual-dpss-report-shows-increase-number-sexual-misconduct-cases/">
                   Annual reports show an increase in number of U-M sexual
                   misconduct cases
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/academics/we-looked-301-high-schools-most-applicants-u-m-heres-what-we-found/">
+                <Link href="https://www.michigandaily.com/news/academics/we-looked-301-high-schools-most-applicants-u-m-heres-what-we-found/">
                   We looked at the 301 high schools with the most applicants to
                   U-M. Here&apos;s what we found
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/academics/across-country-or-across-state-undergraduates-come-u-varying-experiences/">
+                <Link href="https://www.michigandaily.com/news/academics/across-country-or-across-state-undergraduates-come-u-varying-experiences/">
                   From across the country or across the state, undergraduates
                   come to &apos;U&apos; with varying experiences
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/academics/hail-and-go-blue-guarantee-financial-aid-programs-give-low-income-state-students/">
+                <Link href="https://www.michigandaily.com/news/academics/hail-and-go-blue-guarantee-financial-aid-programs-give-low-income-state-students/">
                   &apos;HAIL&apos; and Go Blue Guarantee financial aid programs
                   give low-income in-state students education opportunities
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/students-discuss-impacts-apib-experience-college-preparation/">
+                <Link href="https://www.michigandaily.com/news/students-discuss-impacts-apib-experience-college-preparation/">
                   Students discuss impacts of AP/IB experience on college
                   preparation
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/research/how-effective-are-stay-home-orders-and-recommendations-reducing-spread-covid-19/">
+                <Link href="https://www.michigandaily.com/research/how-effective-are-stay-home-orders-and-recommendations-reducing-spread-covid-19/">
                   A look at COVID-19 data before, during and after U-M&apos;s
                   two stay-in-place restrictions
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/statement/2020-sex-survey/">
+                <Link href="https://www.michigandaily.com/statement/2020-sex-survey/">
                   The 2020 Statement Sex Survey
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/government/how-are-umich-students-voting-election-survey-issues-most-important-students/">
+                <Link href="https://www.michigandaily.com/government/how-are-umich-students-voting-election-survey-issues-most-important-students/">
                   How are U-M students voting this election? A survey of issues
                   most important to students
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://www.michigandaily.com/news/academics/meet-class-2024-freshmen-embark-unprecedented-first-year/">
+                <Link href="https://www.michigandaily.com/news/academics/meet-class-2024-freshmen-embark-unprecedented-first-year/">
                   Meet the Class of 2024: Freshmen embark on unprecedented first
                   year
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://magnify.michigandaily.us/online_classes/">
+                <Link href="https://magnify.michigandaily.us/online_classes/">
                   Visualizing the data: LSA instructors prepare for a mostly
                   online fall semester
-                </Anchor>
+                </Link>
               </li>
               <li>
-                <Anchor href="https://magnify.michigandaily.us/covid_reopening/">
+                <Link href="https://magnify.michigandaily.us/covid_reopening/">
                   Reopening the State, Visualized
-                </Anchor>
+                </Link>
               </li>
             </UnorderedList>
           </section>
         </section>
         <section className="grid gap-2">
           <hgroup>
-            <h2 className="font-serif font-bold text-2xl">People</h2>
+            <h2 className="font-serif font-bold text-2xl" id="people">
+              <Anchor href="#people">People</Anchor>
+            </h2>
             <p>
               We are students interested in the intersection of design, data
               science, computer science and journalism. Our team is divided into
@@ -440,7 +453,9 @@ export default function Page() {
             </p>
           </hgroup>
           <section className="grid gap-1">
-            <h3 className="font-serif font-bold text-xl">Leadership Team</h3>
+            <h3 className="font-serif font-bold text-xl" id="leadership-team">
+              <Anchor href="#leadership-team">Leadership Team</Anchor>
+            </h3>
             <UnorderedList>
               <li>
                 <b>Managing Online Editor</b> Angela Voit
@@ -493,9 +508,17 @@ export default function Page() {
   );
 }
 
+function Link({ href, children }: { href: string; children: ReactNode }) {
+  return (
+    <a className="underline hover:no-underline focus:no-underline" href={href}>
+      {children}
+    </a>
+  );
+}
+
 function Anchor({ href, children }: { href: string; children: ReactNode }) {
   return (
-    <a className="underline" href={href}>
+    <a className="hover:text-neutral-600 focus:text-neutral-600" href={href}>
       {children}
     </a>
   );
