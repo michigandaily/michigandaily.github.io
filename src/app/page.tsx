@@ -103,7 +103,7 @@ export default function Page() {
                 </Link>
               </li>
               <li>
-                <Link href="https://mic.michigandaily.com/love-in-color-2024/">
+                <Link href="https://mic.michigandaily.com/2024/love-in-color/">
                   Love in Color
                 </Link>
               </li>
