@@ -98,6 +98,16 @@ export default function Page() {
             </h3>
             <UnorderedList>
               <li>
+                <Link href="https://specials.michigandaily.com/2024/love-notes/">
+                  The 2024 Love Notes
+                </Link>
+              </li>
+              <li>
+                <Link href="https://mic.michigandaily.com/2024/love-in-color/">
+                  Love in Color
+                </Link>
+              </li>
+              <li>
                 <Link href="https://mic.michigandaily.com/2023/the-fable-of-the-lion-the-butcher-and-three-kings/">
                   The Fable of the Lion, the Butcher, and Three Kings
                 </Link>
