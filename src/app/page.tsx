@@ -252,6 +252,11 @@ export default function Page() {
             </h3>
             <UnorderedList>
               <li>
+                <Link href="https://www.michigandaily.com/government/president-biden-approves-michigan-federal-disaster-relief-following-august-storms-tornadoes/">
+                  President Biden approves Michigan federal disaster relief following August storms, tornadoes
+                </Link>
+              </li>
+              <li>
                 <Link href="https://www.michigandaily.com/statement/the-statement-2023-sex-survey/">
                   The Statement 2023 Sex Survey
                 </Link>
