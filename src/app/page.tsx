@@ -109,7 +109,7 @@ export default function Page() {
               </li>
               <li>
                 <Link href="https://specials.michigandaily.com/2023/photographers-favorites/">
-                  Photographers' Favorites 2023
+                  Photographers&apos; Favorites 2023
                 </Link>
               </li>
               <li>
@@ -150,13 +150,13 @@ export default function Page() {
               </li>
               <li>
                 <Link href="https://www.michigandaily.com/womens-basketball/the-dailys-womens-basketball-beat-presents-its-march-madness-brackets/">
-                  The Daily's women's basketball beat presents its March Madness
+                  The Daily&apos;s women&apos;s basketball beat presents its March Madness
                   brackets
                 </Link>
               </li>
               <li>
                 <Link href="https://www.michigandaily.com/sports/mens-basketball/the-dailys-mens-basketball-beat-presents-its-nit-brackets/">
-                  The Daily's men's basketball beat presents its NIT brackets
+                  The Daily&apos;s men&apos;s basketball beat presents its NIT brackets
                 </Link>
               </li>
               <li>
