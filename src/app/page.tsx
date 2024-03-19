@@ -108,6 +108,11 @@ export default function Page() {
                 </Link>
               </li>
               <li>
+                <Link href="https://specials.michigandaily.com/2023/photographers-favorites/">
+                  Photographers' Favorites 2023
+                </Link>
+              </li>
+              <li>
                 <Link href="https://mic.michigandaily.com/2023/the-fable-of-the-lion-the-butcher-and-three-kings/">
                   The Fable of the Lion, the Butcher, and Three Kings
                 </Link>
@@ -141,6 +146,17 @@ export default function Page() {
               <li>
                 <Link href="https://mic.michigandaily.com/queer-in-color-2023/">
                   Queer in Color
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/womens-basketball/the-dailys-womens-basketball-beat-presents-its-march-madness-brackets/">
+                  The Daily's women's basketball beat presents its March Madness
+                  brackets
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/sports/mens-basketball/the-dailys-mens-basketball-beat-presents-its-nit-brackets/">
+                  The Daily's men's basketball beat presents its NIT brackets
                 </Link>
               </li>
               <li>
@@ -253,7 +269,23 @@ export default function Page() {
             <UnorderedList>
               <li>
                 <Link href="https://www.michigandaily.com/government/president-biden-approves-michigan-federal-disaster-relief-following-august-storms-tornadoes/">
-                  President Biden approves Michigan federal disaster relief following August storms, tornadoes
+                  President Biden approves Michigan federal disaster relief
+                  following August storms, tornadoes
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/news/administration/2023-salary-disclosure-report-shows-salary-increases-from-2022/">
+                  2023 Salary Disclosure Report shows salary increases from 2022
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/web/data/how-do-students-use-chatgpt/">
+                  How do Students Use ChatGPT?
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/sports/football/a-data-driven-rose-bowl-preview/">
+                  A data-driven Rose Bowl preview
                 </Link>
               </li>
               <li>
