@@ -9,7 +9,7 @@ export default function Page() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/assets/logo-small.svg"
-            alt="The Michigan Daily logo"
+            alt="The Michigan Daily"
             width="30px"
             className="aspect-square"
           />
