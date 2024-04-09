@@ -85,6 +85,11 @@ export default function Page() {
                 </Link>
               </li>
               <li>Oven Mitts</li>
+              <li>
+                <Link href="https://michigan-daily-alt-text-tracker.pages.dev/">
+                Alternative Text Tracker
+                </Link>
+              </li>
             </UnorderedList>
           </section>
           <section className="grid gap-1">
