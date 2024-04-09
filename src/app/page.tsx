@@ -97,6 +97,17 @@ export default function Page() {
               </Anchor>
             </h3>
             <UnorderedList>
+
+            <li>
+                <Link href="https://specials.michigandaily.com/bside/2024/conspiracy">
+                  The Conspiracy B-Side
+                </Link>
+              </li>                 
+            <li>
+                <Link href="https://specials.michigandaily.com/2024/march-class-spotlights/">
+                  March Class Spotlights
+                </Link>
+              </li>
               <li>
                 <Link href="https://specials.michigandaily.com/2024/love-notes/">
                   The 2024 Love Notes
@@ -140,7 +151,7 @@ export default function Page() {
               </li>
               <li>
                 <Link href="https://specials.michigandaily.com/2023/swiftie-project/">
-                  The Swifte Project
+                  The Swiftie Project
                 </Link>
               </li>
               <li>
