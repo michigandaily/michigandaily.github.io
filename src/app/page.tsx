@@ -55,7 +55,7 @@ export default function Page() {
               </li>
               <li>
                 Mobile application (
-                <Link href="https://apps.apple.com/us/app/the-michigan-daily/id1615063980">
+                <Link href="https://apps.apple.com/us/app/the-michigan-daily/id1615063980?platform=iphone">
                   iOS
                 </Link>{" "}
                 and{" "}
