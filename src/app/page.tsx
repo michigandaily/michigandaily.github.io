@@ -588,7 +588,7 @@ export default function Page() {
               </span>{" "}
               Amazon, CNN, Google, HubSpot, Meta, Microsoft, MongoDB, Nike, NBC,
               San Francisco Standard, Snap, Spotify, Stripe, Susquehanna
-              International Group, The Texas Tribune, Uber, Wall Street Journal.
+              International Group, The Texas Tribune, Uber, Wall Street Journal, The Washington Post.
             </p>
           </section>
         </section>
