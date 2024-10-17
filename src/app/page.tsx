@@ -283,6 +283,11 @@ export default function Page() {
               <Anchor href="#data-journalism">Data Journalism</Anchor>
             </h3>
             <UnorderedList>
+              <li><
+              <Link href="https://www.michigandaily.com/web/maize-and-blue-goes-for-gold-umich-at-the-olympics/">
+                  Maize and Blue Goes For Gold: UMich at the Olympics
+                </Link>
+               </li>
               <li>
                 <Link href="https://www.michigandaily.com/government/president-biden-approves-michigan-federal-disaster-relief-following-august-storms-tornadoes/">
                   President Biden approves Michigan federal disaster relief
