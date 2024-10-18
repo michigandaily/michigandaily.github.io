@@ -283,9 +283,14 @@ export default function Page() {
               <Anchor href="#data-journalism">Data Journalism</Anchor>
             </h3>
             <UnorderedList>
-              <li><
+              <li>
               <Link href="https://www.michigandaily.com/web/maize-and-blue-goes-for-gold-umich-at-the-olympics/">
                   Maize and Blue Goes For Gold: UMich at the Olympics
+                </Link>
+               </li>
+                            <li>
+              <Link href="https://www.michigandaily.com/web/fall-aboard-dont-stop-be-leafing/">
+                  Fall aboard: Don't stop be-leafing!
                 </Link>
                </li>
               <li>
