@@ -290,7 +290,7 @@ export default function Page() {
                </li>
                             <li>
               <Link href="https://www.michigandaily.com/web/fall-aboard-dont-stop-be-leafing/">
-                  Fall aboard: Don't stop be-leafing!
+                  Fall aboard: Don&apos;t stop be-leafing!
                 </Link>
                </li>
               <li>
