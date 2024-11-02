@@ -54,6 +54,11 @@ export default function Page() {
                 </Link>
               </li>
               <li>
+                <Link href="https://games.michigandaily.com/links/">
+                  Links
+                </Link>
+              </li>
+              <li>
                 Mobile application (
                 <Link href="https://apps.apple.com/us/app/the-michigan-daily/id1615063980?platform=iphone">
                   iOS
@@ -87,7 +92,7 @@ export default function Page() {
               <li>Oven Mitts</li>
               <li>
                 <Link href="https://michigan-daily-alt-text-tracker.pages.dev/">
-                Alternative Text Tracker
+                  Alternative Text Tracker
                 </Link>
               </li>
             </UnorderedList>
@@ -102,13 +107,52 @@ export default function Page() {
               </Anchor>
             </h3>
             <UnorderedList>
-
-            <li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/presidential-elections">
+                  The 2024 Elections Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/opinion-elections/">
+                  Opinion Elections 2024
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/best-of-ann-arbor/results/">
+                  Best of Ann Arbor 2024
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/orientation-edition/">
+                  The 2024 Orientation Edition
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/olympic-edition/">
+                  The 2024 Olympic Edition
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/coffee-shops/">
+                  Coffee Shops 2024
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/summer-crush/">
+                  Summer Crush Edition 2024
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/dispatch-edition/">
+                  Dispatch Edition 2024
+                </Link>
+              </li>
+              <li>
                 <Link href="https://specials.michigandaily.com/bside/2024/conspiracy">
                   The Conspiracy B-Side
                 </Link>
-              </li>                 
-            <li>
+              </li>
+              <li>
                 <Link href="https://specials.michigandaily.com/2024/march-class-spotlights/">
                   March Class Spotlights
                 </Link>
@@ -166,13 +210,14 @@ export default function Page() {
               </li>
               <li>
                 <Link href="https://www.michigandaily.com/womens-basketball/the-dailys-womens-basketball-beat-presents-its-march-madness-brackets/">
-                  The Daily&apos;s women&apos;s basketball beat presents its March Madness
-                  brackets
+                  The Daily&apos;s women&apos;s basketball beat presents its
+                  March Madness brackets
                 </Link>
               </li>
               <li>
                 <Link href="https://www.michigandaily.com/sports/mens-basketball/the-dailys-mens-basketball-beat-presents-its-nit-brackets/">
-                  The Daily&apos;s men&apos;s basketball beat presents its NIT brackets
+                  The Daily&apos;s men&apos;s basketball beat presents its NIT
+                  brackets
                 </Link>
               </li>
               <li>
@@ -284,15 +329,15 @@ export default function Page() {
             </h3>
             <UnorderedList>
               <li>
-              <Link href="https://www.michigandaily.com/web/maize-and-blue-goes-for-gold-umich-at-the-olympics/">
+                <Link href="https://www.michigandaily.com/web/maize-and-blue-goes-for-gold-umich-at-the-olympics/">
                   Maize and Blue Goes For Gold: UMich at the Olympics
                 </Link>
-               </li>
-                            <li>
-              <Link href="https://www.michigandaily.com/web/fall-aboard-dont-stop-be-leafing/">
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/web/fall-aboard-dont-stop-be-leafing/">
                   Fall aboard: Don&apos;t stop be-leafing!
                 </Link>
-               </li>
+              </li>
               <li>
                 <Link href="https://www.michigandaily.com/government/president-biden-approves-michigan-federal-disaster-relief-following-august-storms-tornadoes/">
                   President Biden approves Michigan federal disaster relief
@@ -598,7 +643,8 @@ export default function Page() {
               </span>{" "}
               Amazon, CNN, Google, HubSpot, Meta, Microsoft, MongoDB, Nike, NBC,
               San Francisco Standard, Snap, Spotify, Stripe, Susquehanna
-              International Group, The Texas Tribune, Uber, Wall Street Journal, The Washington Post.
+              International Group, The Texas Tribune, Uber, Wall Street Journal,
+              The Washington Post.
             </p>
           </section>
         </section>
