@@ -133,6 +133,11 @@ export default function Page() {
                 </Link>
               </li>
               <li>
+                <Link href="https://specials.michigandaily.com/2024/summer-festivals/">
+                  Ann Arbor Summer Festivals 2024
+                </Link>
+              </li>
+              <li>
                 <Link href="https://specials.michigandaily.com/2024/coffee-shops/">
                   Coffee Shops 2024
                 </Link>
