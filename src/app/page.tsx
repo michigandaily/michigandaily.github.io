@@ -108,6 +108,116 @@ export default function Page() {
             </h3>
             <UnorderedList>
               <li>
+                <Link href="https://specials.michigandaily.com/2025/best-of-ann-arbor/results/">
+                  Best of Ann Arbor 2025
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/books/magic-tree-house/">
+                  The Magic Tree House Project
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/south-asian-jewelry/">
+                  The South Asian Jewelry Series
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/grant-terminations/">
+                  Grant Terminations at U-M
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/orientation-edition/">
+                  The 2025 Orientation Edition
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/fathers-day/">
+                  Father&apos;s Day Edition 2025
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/sheixdaily/">
+                  SHEI x Daily
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/admin-beat-project/">
+                  The Admin Beat Project
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/homelessness-resources/">
+                  Ann Arbor Homelessness Resources
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/csg-elections/">
+                  The 2025 CSG Election Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/softball-first-pitch/">
+                  Softball First Pitch 2025
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/womens-month/">
+                  Women&apos;s Month 2025
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/university-research/">
+                  The University Research Project
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/first-pitch/">
+                  Baseball First Pitch 2025
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/bside/2025/internet-explorers/">
+                  Internet Explorers
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/love-notes/">
+                  The 2025 Love Notes
+                </Link>
+              </li>
+              <li>
+                <Link href="https://mic.michigandaily.com/2025/love-in-color/">
+                  Love in Color 2025
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/historical-protest-movements/">
+                  U-M Historical Protest Movements
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/textbook-beat/">
+                  Students vs. Textbooks
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/photographers-favorites/">
+                  Photographers&apos; Favorites 2024
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/christmas-advent-calendar/">
+                  Arts Christmas Advent Calendar 2024
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2024/november-class-spotlights/">
+                  November Class Spotlights
+                </Link>
+              </li>
+              <li>
                 <Link href="https://specials.michigandaily.com/2024/presidential-elections">
                   The 2024 Elections Guide
                 </Link>
@@ -169,7 +279,7 @@ export default function Page() {
               </li>
               <li>
                 <Link href="https://mic.michigandaily.com/2024/love-in-color/">
-                  Love in Color
+                  Love in Color 2024
                 </Link>
               </li>
               <li>
@@ -625,7 +735,7 @@ export default function Page() {
                 <b>Engineering Manager</b> Julia Mei
               </li>
               <li>
-                <b>Engineering Manager</b> Jessica Li
+                <b>Engineering Manager</b> Daniel Liu
               </li>
               <li>
                 <b>Senior Software Engineer</b> Kristen Su
@@ -649,7 +759,7 @@ export default function Page() {
               <span className="font-bold">
                 We have worked or currently work at these organizations:
               </span>{" "}
-              Amazon, CNN, Google, HubSpot, Meta, Microsoft, MongoDB, Nike, NBC,
+              Amazon, CNN, Google, HubSpot, Meta, Microsoft, MongoDB, Symbotic, Nike, NBC,
               San Francisco Standard, Snap, Spotify, Stripe, Susquehanna
               International Group, The Texas Tribune, Uber, Wall Street Journal,
               The Washington Post.
