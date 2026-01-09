@@ -726,28 +726,28 @@ export default function Page() {
             </h3>
             <UnorderedList>
               <li>
-                <b>Managing Online Editor</b> Emily Chen
+                <b>Managing Online Editor</b> Emma Chen
               </li>
               <li>
-                <b>Managing Online Editor</b> Darrin Zhou
-              </li>
-              <li>
-                <b>Engineering Manager</b> Julia Mei
+                <b>Managing Online Editor</b> Julia Mei
               </li>
               <li>
                 <b>Engineering Manager</b> Daniel Liu
               </li>
               <li>
-                <b>Senior Software Engineer</b> Kristen Su
+                <b>Engineering Manager</b> Alyssa Locke
               </li>
               <li>
-                <b>Data Editor</b> Daniel Johnson
+                <b>Senior Software Engineer</b> Charlene Yee
               </li>
               <li>
-                <b>Data Editor</b> Priya Shah
+                <b>Data Editor</b> Darby Jones
               </li>
               <li>
-                <b>Product Design Manager</b> Ruhee Jain
+                <b>Data Editor</b> Zora Tucker
+              </li>
+              <li>
+                <b>Product Design Manager</b> Annice Chang
               </li>
               <li>
                 <b>Product Design Manager</b> Sanvika Inturi
