@@ -450,7 +450,7 @@ export default function Page() {
               </li>
                <li>
                 <Link href="https://www.michigandaily.com/opinion/columns/parent-megadonors-have-unmatched-access-to-the-administration-that-doesnt-have-to-be-a-bad-thing/">
-                  Parent megadonors have unmatched access to the administation. That doesn't have to be a bad thing.
+                  Parent megadonors have unmatched access to the administation. That doesn&apos;t have to be a bad thing.
                 </Link>
               </li>
                <li>
@@ -470,7 +470,7 @@ export default function Page() {
               </li>
                <li>
                 <Link href="https://www.michigandaily.com/web/data/whos-getting-tenure-investigating-race-gender-the-shifting-structure-of-academic-employment/">
-                  Who's getting tenure?: Investigating race, gender, & the shifting structure of academic employment
+                  Who&apos;s getting tenure?: Investigating race, gender, & the shifting structure of academic employment
                 </Link>
               </li>
                <li>
@@ -490,7 +490,7 @@ export default function Page() {
               </li>
                <li>
                 <Link href="https://www.michigandaily.com/web/umichs-political-footprint-analyzing-student-and-employee-donations/">
-                  UMich's Political Footprint: Analyzing Student and Employee Donations
+                  UMich&apos;s Political Footprint: Analyzing Student and Employee Donations
                 </Link>
               </li>
               <li>
