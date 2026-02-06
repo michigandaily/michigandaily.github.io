@@ -443,6 +443,61 @@ export default function Page() {
               <Anchor href="#data-journalism">Data Journalism</Anchor>
             </h3>
             <UnorderedList>
+               <li>
+                <Link href="https://www.michigandaily.com/web/data/the-cost-of-eating-at-umich/">
+                  The cost of eating at UMich
+                </Link>
+              </li>
+               <li>
+                <Link href="https://www.michigandaily.com/opinion/columns/parent-megadonors-have-unmatched-access-to-the-administration-that-doesnt-have-to-be-a-bad-thing/">
+                  Parent megadonors have unmatched access to the administation. That doesn't have to be a bad thing.
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/statement/the-statement-2025-sex-survey/">
+                  The Statement 2025 Sex Survey
+                </Link>
+              </li>
+               <li>
+                <Link href="https://www.michigandaily.com/web/data/24-years-of-u-m-admissions-the-real-cost-of-attending-umich/">
+                  24 years of UMich admissions: The real cost of attending UMich
+                </Link>
+              </li>
+               <li>
+                <Link href="https://www.michigandaily.com/web/data/buying-prestige-on-product-hunt-how-tech-startups-manufacture-artificial-success//">
+                 Buying prestige on Product Hunt: How tech startups manufacture artificial success
+                </Link>
+              </li>
+               <li>
+                <Link href="https://www.michigandaily.com/web/data/whos-getting-tenure-investigating-race-gender-the-shifting-structure-of-academic-employment/">
+                  Who's getting tenure?: Investigating race, gender, & the shifting structure of academic employment
+                </Link>
+              </li>
+               <li>
+                <Link href="https://www.michigandaily.com/web/data/mapping-major-trends-at-umich/">
+                  Mapping major trends at UMich
+                </Link>
+              </li>
+               <li>
+                <Link href="https://www.michigandaily.com/web/data/24-years-of-u-m-admissions-how-dei-initiatives-have-impacted-admitted-student-representation/">
+                  24 years of UMich admissions: How DEI initiatives have impacted admitted student representation
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/web/data/24-years-of-umich-admissions-an-inside-look-at-acceptance-rates-and-freshman-profiles/">
+                  24 years of UMich admissions: An inside look at acceptance rates and freshman profiles
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/web/let-it-snow-ann-arbors-latest-first-snow-in-the-last-ten-years/">
+                  Let it Snow: Ann Arbor's latest first snow in the last ten years
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/web/umichs-political-footprint-analyzing-student-and-employee-donations/">
+                  UMich's Political Footpring: Analyzing Student and Employee Donations
+                </Link>
+              </li>
               <li>
                 <Link href="https://www.michigandaily.com/web/maize-and-blue-goes-for-gold-umich-at-the-olympics/">
                   Maize and Blue Goes For Gold: UMich at the Olympics
@@ -726,7 +781,7 @@ export default function Page() {
             </h3>
             <UnorderedList>
               <li>
-                <b>Managing Online Editor</b> Emma Chen
+                <b>Managing Online Editor</b> Emma Peng
               </li>
               <li>
                 <b>Managing Online Editor</b> Julia Mei
