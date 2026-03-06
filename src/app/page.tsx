@@ -812,7 +812,7 @@ export default function Page() {
               Amazon, CNN, Google, HubSpot, Meta, Microsoft, MongoDB, Symbotic, Nike, NBC,
               San Francisco Standard, Snap, Spotify, Stripe, Susquehanna
               International Group, The Texas Tribune, Uber, Wall Street Journal,
-              The Washington Post.
+              The Washington Post, The New York Times.
             </p>
           </section>
         </section>
