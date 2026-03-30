@@ -444,6 +444,16 @@ export default function Page() {
             </h3>
             <UnorderedList>
                <li>
+                <Link href="https://www.michigandaily.com/web/data/speech-controversy-and-freedom-at-umich/">
+                  Speech, controversy and freedom at UMich
+                </Link>
+               </li>
+               <li>
+                <Link href="https://www.michigandaily.com/news/former-michigan-medicine-dean-omitted-multimillion-dollar-pharma-ties-in-multiple-publications-daily-investigation-finds/">
+                  Former Michigan Medicine dean omitted multimillion-dollar pharma ties in multiple publications, Daily investigation finds
+                </Link>
+               </li>
+               <li>
                 <Link href="https://www.michigandaily.com/web/data/the-cost-of-eating-at-umich/">
                   The cost of eating at UMich
                 </Link>
