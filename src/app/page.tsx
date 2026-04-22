@@ -54,9 +54,7 @@ export default function Page() {
                 </Link>
               </li>
               <li>
-                <Link href="https://games.michigandaily.com/links/">
-                  Links
-                </Link>
+                <Link href="https://games.michigandaily.com/links/">Links</Link>
               </li>
               <li>
                 Mobile application (
@@ -106,7 +104,23 @@ export default function Page() {
                 News Engineering and Design
               </Anchor>
             </h3>
+            <h4 className="font-serif font-bold text-l">2025</h4>
             <UnorderedList>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/ann-arbor-trivia-guide/">
+                  The Ultimate Ann Arbor Trivia Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/csg-elections-guide/">
+                  CSG Midterm Elections Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/opinion-editorial-golich/">
+                  From the Daily: The University&apos;s Values on Trial
+                </Link>
+              </li>
               <li>
                 <Link href="https://specials.michigandaily.com/2025/best-of-ann-arbor/results/">
                   Best of Ann Arbor 2025
@@ -115,6 +129,11 @@ export default function Page() {
               <li>
                 <Link href="https://specials.michigandaily.com/2025/books/magic-tree-house/">
                   The Magic Tree House Project
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/bside/2025/stars/">
+                  In the Stars B-Side
                 </Link>
               </li>
               <li>
@@ -202,6 +221,9 @@ export default function Page() {
                   Students vs. Textbooks
                 </Link>
               </li>
+            </UnorderedList>
+            <h4 className="font-serif font-bold text-l">2024</h4>
+            <UnorderedList>
               <li>
                 <Link href="https://specials.michigandaily.com/2024/photographers-favorites/">
                   Photographers&apos; Favorites 2024
@@ -282,6 +304,9 @@ export default function Page() {
                   Love in Color 2024
                 </Link>
               </li>
+            </UnorderedList>
+            <h4 className="font-serif font-bold text-l">2023</h4>
+            <UnorderedList>
               <li>
                 <Link href="https://specials.michigandaily.com/2023/photographers-favorites/">
                   Photographers&apos; Favorites 2023
@@ -350,6 +375,9 @@ export default function Page() {
                   The 2023 Love Notes
                 </Link>
               </li>
+            </UnorderedList>
+            <h4 className="font-serif font-bold text-l">2022</h4>
+            <UnorderedList>
               <li>
                 <Link href="https://specials.michigandaily.com/2022/photographers-favorites/">
                   2022 Photographers&apos; Favorites
@@ -406,6 +434,9 @@ export default function Page() {
                   Mark Schlissel
                 </Link>
               </li>
+            </UnorderedList>
+            <h4 className="font-serif font-bold text-l">2021</h4>
+            <UnorderedList>
               <li>
                 <Link href="https://www.michigandaily.com/multimedia/the-michigan-dailys-year-in-photos/">
                   The Michigan Daily&apos;s year in photos
@@ -421,6 +452,9 @@ export default function Page() {
                   The 2021 Love Notes
                 </Link>
               </li>
+            </UnorderedList>
+            <h4 className="font-serif font-bold text-l">2020</h4>
+            <UnorderedList>
               <li>
                 <Link href="https://magnify.michigandaily.us/2020_timeline/">
                   20 Days to Remember in 2020
@@ -443,64 +477,72 @@ export default function Page() {
               <Anchor href="#data-journalism">Data Journalism</Anchor>
             </h3>
             <UnorderedList>
-               <li>
+              <li>
                 <Link href="https://www.michigandaily.com/web/data/speech-controversy-and-freedom-at-umich/">
                   Speech, controversy and freedom at UMich
                 </Link>
-               </li>
-               <li>
+              </li>
+              <li>
                 <Link href="https://www.michigandaily.com/news/former-michigan-medicine-dean-omitted-multimillion-dollar-pharma-ties-in-multiple-publications-daily-investigation-finds/">
-                  Former Michigan Medicine dean omitted multimillion-dollar pharma ties in multiple publications, Daily investigation finds
+                  Former Michigan Medicine dean omitted multimillion-dollar
+                  pharma ties in multiple publications, Daily investigation
+                  finds
                 </Link>
-               </li>
-               <li>
+              </li>
+              <li>
                 <Link href="https://www.michigandaily.com/web/data/the-cost-of-eating-at-umich/">
                   The cost of eating at UMich
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="https://www.michigandaily.com/opinion/columns/parent-megadonors-have-unmatched-access-to-the-administration-that-doesnt-have-to-be-a-bad-thing/">
-                  Parent megadonors have unmatched access to the administation. That doesn&apos;t have to be a bad thing.
+                  Parent megadonors have unmatched access to the administation.
+                  That doesn&apos;t have to be a bad thing.
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="https://www.michigandaily.com/statement/the-statement-2025-sex-survey/">
                   The Statement 2025 Sex Survey
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="https://www.michigandaily.com/web/data/24-years-of-u-m-admissions-the-real-cost-of-attending-umich/">
                   24 years of UMich admissions: The real cost of attending UMich
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="https://www.michigandaily.com/web/data/buying-prestige-on-product-hunt-how-tech-startups-manufacture-artificial-success/">
-                  Buying prestige on Product Hunt: How tech startups manufacture artificial success
+                  Buying prestige on Product Hunt: How tech startups manufacture
+                  artificial success
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="https://www.michigandaily.com/web/data/whos-getting-tenure-investigating-race-gender-the-shifting-structure-of-academic-employment/">
-                  Who&apos;s getting tenure?: Investigating race, gender, & the shifting structure of academic employment
+                  Who&apos;s getting tenure?: Investigating race, gender, & the
+                  shifting structure of academic employment
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="https://www.michigandaily.com/web/data/mapping-major-trends-at-umich/">
                   Mapping major trends at UMich
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="https://www.michigandaily.com/web/data/24-years-of-u-m-admissions-how-dei-initiatives-have-impacted-admitted-student-representation/">
-                  24 years of UMich admissions: How DEI initiatives have impacted admitted student represetation
+                  24 years of UMich admissions: How DEI initiatives have
+                  impacted admitted student represetation
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="https://www.michigandaily.com/web/data/24-years-of-umich-admissions-an-inside-look-at-acceptance-rates-and-freshman-profiles/">
-                  24 years of UMich admissions: An inside look at acceptance rates and freshman profiles
+                  24 years of UMich admissions: An inside look at acceptance
+                  rates and freshman profiles
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link href="https://www.michigandaily.com/web/umichs-political-footprint-analyzing-student-and-employee-donations/">
-                  UMich&apos;s Political Footprint: Analyzing Student and Employee Donations
+                  UMich&apos;s Political Footprint: Analyzing Student and
+                  Employee Donations
                 </Link>
               </li>
               <li>
@@ -819,10 +861,10 @@ export default function Page() {
               <span className="font-bold">
                 We have worked or currently work at these organizations:
               </span>{" "}
-              Amazon, CNN, Google, HubSpot, Meta, Microsoft, MongoDB, Symbotic, Nike, NBC,
-              San Francisco Standard, Snap, Spotify, Stripe, Susquehanna
-              International Group, The Texas Tribune, Uber, Wall Street Journal,
-              The Washington Post, The New York Times.
+              Amazon, CNN, Google, HubSpot, Meta, Microsoft, MongoDB, Symbotic,
+              Nike, NBC, San Francisco Standard, Snap, Spotify, Stripe,
+              Susquehanna International Group, The Texas Tribune, Uber, Wall
+              Street Journal, The Washington Post, The New York Times.
             </p>
           </section>
         </section>
