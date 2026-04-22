@@ -476,6 +476,7 @@ export default function Page() {
             <h3 className="font-serif font-bold text-xl" id="data-journalism">
               <Anchor href="#data-journalism">Data Journalism</Anchor>
             </h3>
+            <h4 className="font-serif font-bold text-l">2026</h4>
             <UnorderedList>
               <li>
                 <Link href="https://www.michigandaily.com/web/data/speech-controversy-and-freedom-at-umich/">
@@ -500,6 +501,9 @@ export default function Page() {
                   That doesn&apos;t have to be a bad thing.
                 </Link>
               </li>
+            </UnorderedList>
+            <h4 className="font-serif font-bold text-l">2025</h4>
+            <UnorderedList>
               <li>
                 <Link href="https://www.michigandaily.com/statement/the-statement-2025-sex-survey/">
                   The Statement 2025 Sex Survey
@@ -539,6 +543,9 @@ export default function Page() {
                   rates and freshman profiles
                 </Link>
               </li>
+              </UnorderedList>
+              <h4 className="font-serif font-bold text-l">2024</h4>
+              <UnorderedList>
               <li>
                 <Link href="https://www.michigandaily.com/web/umichs-political-footprint-analyzing-student-and-employee-donations/">
                   UMich&apos;s Political Footprint: Analyzing Student and
@@ -571,6 +578,9 @@ export default function Page() {
                   How do Students Use ChatGPT?
                 </Link>
               </li>
+              </UnorderedList>
+              <h4 className="font-serif font-bold text-l">2023</h4>
+              <UnorderedList>
               <li>
                 <Link href="https://www.michigandaily.com/sports/football/a-data-driven-rose-bowl-preview/">
                   A data-driven Rose Bowl preview
@@ -617,6 +627,9 @@ export default function Page() {
                   Massive power outage in Ann Arbor leaves thousands in the dark
                 </Link>
               </li>
+              </UnorderedList>
+              <h4 className="font-serif font-bold text-l">2022</h4>
+              <UnorderedList>
               <li>
                 <Link href="https://www.michigandaily.com/government/looking-back-at-the-midterm-elections-voting-at-the-satellite-city-clerks-office/">
                   Looking back at the midterm elections: Voting at the Satellite
@@ -656,6 +669,9 @@ export default function Page() {
                   weekend of March Madness
                 </Link>
               </li>
+              </UnorderedList>
+              <h4 className="font-serif font-bold text-l">2021</h4>
+              <UnorderedList>
               <li>
                 <Link href="https://www.michigandaily.com/sports/football/a-data-driven-orange-bowl-preview/">
                   A data-driven Orange Bowl preview
@@ -780,6 +796,9 @@ export default function Page() {
                   two stay-in-place restrictions
                 </Link>
               </li>
+              </UnorderedList>
+              <h4 className="font-serif font-bold text-l">2020</h4>
+              <UnorderedList>
               <li>
                 <Link href="https://www.michigandaily.com/statement/2020-sex-survey/">
                   The 2020 Statement Sex Survey
