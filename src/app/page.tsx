@@ -104,6 +104,89 @@ export default function Page() {
                 News Engineering and Design
               </Anchor>
             </h3>
+            <h4 className="font-serif font-bold text-l">2026</h4>
+            <UnorderedList>
+              <li>
+                <Link href="https://specials.michigandaily.com/2026/city-council-election/">
+                  2026 Ann Arbor Primary Elections Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2026/fathers-day/">
+                  Father&apos;s Day Feature 2026
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2026/orientation-edition/">
+                  Orientation Edition 2026
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/arts/goodbye-bside/">
+                  Arts Goodbye B-side
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/bside/2026/commentary/">
+                  Arts Opinion B-side
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/arts/herosjourney/">
+                  Hero&apos;s Journey
+                </Link>
+              </li>
+              <li>
+                <Link href="https://games.michigandaily.com/">
+                  Games Author Pages
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2026/csg-elections/">
+                  CSG Election Guides 2026
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2026/womens-month/">
+                  Women&apos;s Month
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2026/softballfirstpitch/">
+                  Softball First Pitch 2026
+                </Link>
+              </li>
+              <li>
+                <Link href="http://specials.michigandaily.com/2026/baseballfirstpitch/">
+                  Baseball First Pitch 2026
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2026/walk-through-ann-arbor/">
+                  A Walk Through Ann Arbor
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/student-governments-map/">
+                  CSG Map
+                </Link>
+              </li>
+              <li>
+                <Link href="https://mic.michigandaily.com/2026/love-in-color/">
+                  Love in Color 2026
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2026/love-notes/">
+                  Love Notes 2026
+                </Link>
+              </li>
+              <li>
+                <Link href="https://specials.michigandaily.com/2025/bsides/strangers/">
+                  Strangers B-side
+                </Link>
+              </li>
+            </UnorderedList>
             <h4 className="font-serif font-bold text-l">2025</h4>
             <UnorderedList>
               <li>
@@ -479,6 +562,16 @@ export default function Page() {
             <h4 className="font-serif font-bold text-l">2026</h4>
             <UnorderedList>
               <li>
+                <Link href="https://www.michigandaily.com/web/data/umich-students-swung-hard-to-the-right-in-2024-a-reversal-now-seems-likely/">
+                  UMich students swung hard to the right in 2024. A reversal now seems likely.
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.michigandaily.com/web/data/wolverines-on-the-ice-umich-at-the-olympics/">
+                  Wolverines on the Ice: UMich at the Olympics
+                </Link>
+              </li>
+              <li>
                 <Link href="https://www.michigandaily.com/web/data/speech-controversy-and-freedom-at-umich/">
                   Speech, controversy and freedom at UMich
                 </Link>
@@ -853,13 +946,13 @@ export default function Page() {
                 <b>Managing Online Editor</b> Julia Mei
               </li>
               <li>
-                <b>Engineering Manager</b> Daniel Liu
-              </li>
-              <li>
                 <b>Engineering Manager</b> Alyssa Locke
               </li>
               <li>
-                <b>Senior Software Engineer</b> Charlene Yee
+                <b>Engineering Manager</b> Grace Liu
+              </li>
+              <li>
+                <b>Senior Software Engineer</b> Becky Pan
               </li>
               <li>
                 <b>Data Editor</b> Darby Jones
